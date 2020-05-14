@@ -3,7 +3,6 @@ const server = require("./api/server.js");
 
 
 const port = process.env.PORT || 5000;
-console.log(process.env.PORT)
 console.log('port:',port)
 
 server.listen(port, () => {
